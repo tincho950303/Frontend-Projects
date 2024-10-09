@@ -1,17 +1,64 @@
-body {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-
-}
-
-header nav {
-    text-align: right;
-    border: 2px solid #000;
-    text-decoration: none;
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
     margin: 0;
+    padding: 0;    
+    box-sizing: border-box;    
+}
+body {
+    max-width: 1200px;
+    margin: 5px auto;    
+}
+header {
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header nav {   
+    align-self: center;
+    text-decoration: none;
+    margin: 2px auto;
+    font-size: 1.4em;
+}
+header nav a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+header nav a:visited {
+    color: #000;
+} 
+header nav a:hover{    
+    color: #c77c30;
+}
+header img {
+    max-width: 250px;
+    border-radius: 10px;   
+    margin: 15px;    
 }
 
-header nav h1 {
-    text-align: left;
+/* ----------------- */
+
+main {
+   
+    border: 2px solid #000;
+    height: 60vh;
 }
+
+main section {
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+}
+
+main h2 {
+    font-size: 4em;
+    font-weight: 100;
+    font-style: normal;
+}
+
 
 
