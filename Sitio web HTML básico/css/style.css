@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header nav {
+    text-align: right;
+    border: 2px solid #000;
+    text-decoration: none;
+    margin: 0;
+}
+
+header nav h1 {
+    text-align: left;
+}
+
+
