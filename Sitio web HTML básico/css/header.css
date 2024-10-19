@@ -1,0 +1,38 @@
+header {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+header .logo {
+    display: flex;
+}
+header img {
+    max-width: 150px;
+    border-radius: 5px;   
+    margin: 15px;    
+}
+
+header h1 {
+    font-size: 17px;
+    align-self: center;
+
+    
+}
+header nav {  
+    
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 1.4em;
+}
+header nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+header nav a:visited {
+    color: #000;
+} 
+header nav a:hover{    
+    color: #c77c30;
+}
